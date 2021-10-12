@@ -12,17 +12,17 @@ int main() {
     char command3[50];
 
     //Displays a list of files and sub-directories in a directory.
-    printf("\n1st Command\n");
+    printf("\n1st Command dir\n");
     strcpy( command1, "dir" );
     system(command1);
 
-    //Shows the name of or changes to a current directory.
-    printf("\n2nd Command\n");
+    //Shows the name/path of current directory.
+    printf("\n2nd Command cd\n");
     strcpy( command2, "cd" );
     system(command2);
 
     //Displays user, group on local system
-    printf("\n3rd Command\n");
+    printf("\n3rd Command whoami\n");
     strcpy( command3, "whoami" );
     system(command3);
     return 0;
