@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+B:/OneDrive/Documents/CSC 139/HW 2 Code/main.c
+stdio.h
+-
+stdlib.h
+-
+windows.system.threading.h
+-
+
